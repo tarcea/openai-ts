@@ -14,6 +14,6 @@ response:
 ```json
 {
   "question": "say nurse in Swedish",
-  "response": "\n\nSjuksköterska"
+  "response": "Sjuksköterska"
 }
 ```

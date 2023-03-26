@@ -13,5 +13,5 @@ export const askSomething = async (question: string) => {
     prompt: question,
   });
 
-  return completion.data.choices[0].text;
+  return completion.data.choices[0].text?.trim();
 };
