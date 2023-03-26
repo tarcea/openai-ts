@@ -17,3 +17,14 @@ response:
   "response": "Sjuksköterska"
 }
 ```
+
+make a request like this: `http://localhost:3010/?q=say%20nurse%20in%20German`
+
+response:
+
+```json
+{
+  "question": "say nurse in German",
+  "response": "Krankenschwester"
+}
+```
